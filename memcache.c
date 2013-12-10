@@ -1500,7 +1500,7 @@ int mmc_delete(mmc_t *mmc, const char *key, int key_len, int time TSRMLS_DC) /* 
 	char *command;
 	int command_len, response_len;
 
-	command_len = spprintf(&command, 0, "delete %s %d", key, time);
+	command_len = spprintf(&command, 0, "delete %s", key);
 
 	MMC_DEBUG(("mmc_delete: trying to delete '%s'", key));
 
