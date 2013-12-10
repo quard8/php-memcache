@@ -4,7 +4,7 @@ php-memcache
 Fork of official php memcache extension for supporting twemproxy
 
 
-In this for I removed extra parameter for "delete" command. See https://github.com/twitter/twemproxy/issues/23 for details.
+In this fork I removed extra parameter for "delete" command. See https://github.com/twitter/twemproxy/issues/23 for details.
 
 memcached module for PHP
 ------------------------
